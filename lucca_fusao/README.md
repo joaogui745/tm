@@ -12,11 +12,6 @@ gcc sintatico.tab.c lex.yy.c -o analisador.exe
 
 .\analisador.exe outro_programa.lc saida_outro_programa.txt
 
-#### Com trace de tokens (-v)
-
-.\analisador.exe -v programa.lc saida_programa.txt
-
-.\analisador.exe -v outro_programa.lc saida_outro_programa.txt
 
 ### Compilar o Simulador TM
 

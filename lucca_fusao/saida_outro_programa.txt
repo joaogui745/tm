@@ -1,0 +1,26 @@
+[lex] linha   1: simbolo     {
+[lex] linha   2: ID          VAL
+[lex] linha   2: simbolo     =
+[lex] linha   2: REAL        70.0
+[lex] linha   2: simbolo     ;
+[lex] linha   3: SE          se
+[lex] linha   3: simbolo     (
+[lex] linha   3: ID          VAL
+[lex] linha   3: simbolo     >
+[lex] linha   3: REAL        65.0
+[lex] linha   3: simbolo     )
+[lex] linha   3: simbolo     {
+[lex] linha   4: ID          RES
+[lex] linha   4: simbolo     =
+[lex] linha   4: REAL        1.0
+[lex] linha   4: simbolo     ;
+[lex] linha   5: simbolo     }
+[lex] linha   5: SENAO       senao
+[lex] linha   5: simbolo     {
+[lex] linha   6: ID          RES
+[lex] linha   6: simbolo     =
+[lex] linha   6: REAL        0.0
+[lex] linha   6: simbolo     ;
+[lex] linha   7: simbolo     }
+[lex] linha   8: simbolo     }
+programa analisado com sucesso

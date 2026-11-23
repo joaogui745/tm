@@ -1,0 +1,9 @@
+{
+  BAS = 2.0 ;
+  EXP = 10.0 ;
+  RES = 1.0 ;
+  enquanto ( EXP > 0.0 ) {
+    RES = RES * BAS ;
+    EXP = EXP - 1.0 ;
+  }
+}
